@@ -1,0 +1,23 @@
+#cursor {
+  width: 13px;
+  height: 13px;
+  pointer-events: none;
+  background-color: var(--color-base-cursor);
+  position: fixed;
+  z-index: 9999;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+#cursor.cursor-clear {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-image: url("/ClearTool.png");
+  background-size: contain;
+  border-radius: 0;
+}
+#cursor.cursor-draw {
+  background-color: var(--color-paint);
+  width: 13px;
+  height: 13px;
+}

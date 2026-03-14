@@ -1,0 +1,28 @@
+.start-drawing-button,
+.clear-drawing-button {
+  width: 60px;
+  height: 40px;
+  border: 2px solid var(--color-border);
+  box-shadow: 3px 3px 0px 0px var(--color-box-shadow);
+  background-color: var(--color-button-relax);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.start-drawing-button:hover,
+.clear-drawing-button:hover {
+  box-shadow: 1px 1px 0px 0px var(--color-box-shadow);
+  transform: translate(2px);
+}
+.start-drawing-button.active,
+.clear-drawing-button.active {
+  box-shadow: none;
+  background-color: var(--color-button-active);
+  transform: translate(3px);
+}
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+}

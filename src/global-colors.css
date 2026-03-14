@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-base-cursor: rgb(255, 188, 88);
+  --color-button-relax: rgb(234, 245, 229);
+  --color-button-active: rgb(212, 236, 144);
+  --color-canva-frame: rgb(52, 49, 49);
+  --color-box-shadow: rgb(166, 82, 9);
+  --color-active-button: rgb(217, 255, 230);
+  --color-canvas: rgb(255, 255, 233);
+  --text-color: rgb(8, 7, 39);
+  --color-border: rgb(30, 32, 51);
+  --icon-size: 24px;
+  --color-paint: rgb(127, 59, 195);
+  --color-backgroung-field: rgb(222, 250, 191);
+}
